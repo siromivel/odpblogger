@@ -29,8 +29,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use unicorn as the app server
 # gem 'unicorn'
 
-gem 'paperclip'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -39,3 +37,6 @@ gem 'paperclip'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+gem 'paperclip'
+gem 'sorcery'
